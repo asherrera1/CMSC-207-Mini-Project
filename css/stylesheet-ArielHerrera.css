@@ -1,0 +1,439 @@
+/* ========================================================================================= */
+/* NAME          : HERRERA ARIEL SUERTE                                                      */
+/* FILE NAME     : stylesheet-ArielHerrera.css                                               */
+/* Date Created  : 02-Mar-2026, Monday                                                       */
+/* ========================================================================================= */
+/* Make scrolling to the target UL ahref smooth */
+html{
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+.box {
+  flex: 1;           /* Each box takes up an equal amount of available space */
+  /*border: 1px solid #ccc; /* Optional: adds a border to visualize the boxes */
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Papyrus;
+  color:darkgreen;
+}
+
+/* ========================================================================================= */
+/* CSS settings for the HEADER                                                               */
+/* ========================================================================================= */
+.hdr-container {
+  text-align: center;
+  
+  margin-left: 10%;
+  margin-right: 10%;
+  
+  padding-left: 50px;
+  padding-right: 50px;
+
+  font-size: 30px;
+}
+
+/* This coding to make image look like a circular icon */
+.custom-icon{
+  width: 70px;          /* Set a specific width */
+  height: 70px;         /* Set the same height to ensure a perfect square */
+  border-radius: 50%;   /* Turns the square into a circle */
+  object-fit: cover;    /* Ensures the image covers the entire area without stretching */
+}
+
+/* This code is to make the header stick to the top even when user scrolls up/down the web page*/
+.header-sticky{
+  position:-webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin-right: 10%;
+    margin-left: 10%;
+
+    font-family: sans-serif;
+    padding: 16px;
+}
+
+nav ul li {
+    display: inline;
+    padding-right: 8px;
+    padding-left: 8px;
+
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:blueviolet;
+}
+
+nav ul li a:hover  {
+    color:darkgreen;
+    text-decoration: underline;
+}
+
+li{
+  padding-bottom: 5%;
+}
+
+/* ========================================================================================= */
+/* CSS settings for the BODY  - HOME                                                         */
+/* ========================================================================================= */
+/* Class = home-container */
+.home-container {
+  display: flex;
+ 
+  padding-left: 50px;       /* Space from left */
+  padding-right: 50px;      /* Space from right */
+  padding-bottom: 50px;
+ 
+  margin-left: 20%;
+  margin-right: 20%;
+  /*border: 1px solid #ccc; /* Optional: adds a border to visualize the boxes */
+
+}
+
+/* myImage - this shows a relatively big picture */
+.homeImg img {
+  width: 100%;
+  height: 100%;
+  padding-top: 150px;
+
+}
+
+/* ========================================================================================= */
+/* CSS settings for the BODY  - About Me                                                     */
+/* ========================================================================================= */
+.AboutMe-container {
+  display: flex;
+  gap: 20px;                /* Space between two elements */
+
+  padding-left: 50px;       /* Space from left */
+  padding-right: 50px;      /* Space from right */
+  padding-bottom: 5px;     /* Space from bottom */
+  padding-top: 150px;
+
+  margin-left: 10%;
+  margin-right: 10%;
+
+  font-family: Papyrus;
+  font-size: 20px;
+  /*border: 30px solid #ccc; /* Optional: adds a border to visualize the boxes */
+}
+
+.AboutMe-TextBox {
+  max-width: 70%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: lch(90.27% 14.76 76.58);
+
+  border-style:outset;
+  border-radius: 5%;
+  border-color:rgb(216, 193, 158);
+  border: 10px;
+}
+
+.AboutMe-ImgBox {
+  max-width: 30%;
+  margin-right: 5%;
+  font-family:Arial;
+  font-size: 12px;
+  /*border: 1px solid #ccc; /* Optional: adds a border to visualize the boxes */
+}
+
+/* For displaying text inside a box. This box is side-by-side with an image*/
+.AboutMe-text {
+  text-justify:auto;
+  text-align:justify;
+  font-family: arial;
+}
+
+.AboutMe-text p {
+  font-size: 18px;
+}
+
+.AboutMe-Img img {
+  padding-top: 120px;
+
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* CSS settings for javascript related output                                                     */
+#nextFunFact {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 25px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#nextFunFact:hover  {
+  background-color:blanchedalmond;
+  color:purple;
+}
+
+#funFact {
+  text-align: left;
+  text-justify: auto;
+  color:brown;
+  font-family:Arial;
+}
+
+#ffTtl {
+  text-justify: auto;
+  color:brown;
+}
+
+/* ========================================================================================= */
+/* CSS settings for the BODY  - EXPERIENCES                                                  */
+/* ========================================================================================= */
+.EXP-container {
+  display: flex;
+  gap: 20px;                /* Space between two elements */
+
+  padding-left: 50px;       /* Space from left */
+  padding-right: 50px;      /* Space from right */
+  padding-bottom: 5px;     /* Space from bottom */
+  padding-top: 150px;
+
+  margin-left: 10%;
+  margin-right: 10%;
+
+  font-family: Papyrus;
+  font-size: 20px;
+  /*border: 30px solid #ccc; /* Optional: adds a border to visualize the boxes */
+}
+
+/* Container for Other info */
+.EXP-TextBox {
+  font-size: 18px;
+  flex:1;
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+  background-color: lch(90.27% 14.76 76.58);
+  border-style:outset;
+  border-radius: 5%;
+  border-color:rgb(216, 193, 158);
+  border: 10px;
+  /*border: 10px solid #ccc; /* Optional: adds a border to visualize the boxes */
+}
+
+/* Container for Educational Background, EMployment and others */
+.EXP-TextBox2 {
+  position: relative;
+  flex:1;
+  font-size: 20px;
+  font-family: 'Courier New';
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+
+  /*border: 3px solid #e0d99f; /* Optional: adds a border to visualize the boxes */
+}
+
+/* Container for Other Info-Details */
+.EXP-TextBox3 {
+  display: flex;        /*Allows entries to display side by side */
+  flex: 1;
+  font-size: 14px;
+  font-family: arial; 
+  text-align:justify;
+  text-justify: auto;
+
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+  background-color: whitesmoke;
+  border-style:outset;
+  border-radius: 5%;
+  border-color:rgb(216, 193, 158);
+  /*border: 13px solid #e09faf; /* Optional: adds a border to visualize the boxes */
+}
+
+/* For displaying text inside a box. This box is side-by-side with an image*/
+.EXP-text {
+  text-justify: auto;
+}
+
+/* ========================================================================================= */
+/* CSS settings for the BODY  - ABOUT ME                                                     */
+/* ========================================================================================= */
+.myImg-container {
+  position: relative;
+  top: 0;
+  left: 100px;
+
+  width: 500px;
+  height: 300px;
+}
+    
+.body-container myImg_2nd {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+
+}
+
+.myImage3 img {
+  position: absolute;
+  padding-top: 150px;
+
+  width: 30%;
+  height: 30%;
+
+}
+
+.myImage3:hover .myImage5  {
+  animation: TransImg 5s infinite alternate;    /* Transitioning between image1 and image2 happens at 2s */
+}
+
+
+/* ========================================================================================= */
+/* CSS settings for the BODY  - Home, About Me, Hobbie, Contact                              */
+/* ========================================================================================= */
+.body-container {
+  display: flex;
+  gap: 20px;                /* Space between two elements */
+
+  padding-left: 50px;       /* Space from left */
+  padding-right: 50px;      /* Space from right */
+  padding-bottom: 5px;     /* Space from bottom */
+
+  margin-left: 10%;
+  margin-right: 10%;
+
+  font-family: Papyrus;
+  font-size: 20px;
+  /*border: 1px solid #ccc; /* Optional: adds a border to visualize the boxes */
+}
+
+/* myImage - this shows a relatively big picture */
+.myImage img {
+  max-width: 90%;
+  max-height: 90%;
+  padding-top: 150px;
+  object-fit: cover; /* Keeps image from looking stretched */
+}
+
+.myImage2 img {
+  object-fit: cover; /* Keeps image from looking stretched */
+
+  max-width: 60%;
+  max-height: 60%;
+  padding-top: 150px;  
+}
+
+/* Class = box-text */
+/* For displaying text inside a box. This box is side-by-side with an image*/
+.myText {
+  max-width: 85%;
+  padding-top: 150px;
+  text-justify: auto;
+}
+
+.myText h2 {
+  font-size: 40px;
+  font-family: Brush Script MT;
+  color:darkgreen;
+}
+
+.myText p {
+  font-size: 15px;
+  font-family: Papyrus;
+}
+
+.myText li {
+  font-size: 15px;
+  font-family: Monaco;
+  text-justify: auto;
+}
+
+.myText2 {
+  max-width: 85%;
+  padding-top: 150px;
+}
+
+.myText2 h2 {
+  font-size: 40px;
+  font-family: Brush Script MT;
+  color:darkgreen;
+}
+
+.myText2 p {
+  font-size: 20px;
+  font-family: Papyrus;
+}
+
+
+/* Class = body-container --> then box */
+.footer-container {
+  display: flex;
+  gap: 5px;                /* Space between two elements */
+  padding-left: 50px;       /* Space from left */
+  padding-right: 50px;      /* Space from right */
+  padding-bottom: 5px;     /* Space from bottom */
+
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.myImage p {
+  font-size: 12px;
+  font-family: Monaco;
+}
+
+/* ========================================================================================= */
+/* CSS settings - Javascript                                                                 */
+/* ========================================================================================= */
+#clock {
+    position: relative;
+    padding-left: 20px;
+}
+
+
+#hobbyImage {
+  object-fit: cover; /* Keeps image from looking stretched */
+  transition: opacity 0.3s ease; /* Adds a slight fade effect */
+}
+
+#nextImgButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 25px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#nextImgButton:hover  {
+  background-color:blanchedalmond;
+  color:blue;
+}
+
