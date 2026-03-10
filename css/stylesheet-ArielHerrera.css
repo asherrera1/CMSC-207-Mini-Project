@@ -36,7 +36,7 @@ h2 {
 }
 
 /* This coding to make image look like a circular icon */
-.custom-icon{
+.custom-icon {
   width: 70px;          /* Set a specific width */
   height: 70px;         /* Set the same height to ensure a perfect square */
   border-radius: 50%;   /* Turns the square into a circle */
@@ -281,146 +281,74 @@ li{
 }
 
 /* ========================================================================================= */
-/* CSS settings for the BODY  - ABOUT ME                                                     */
+/* CSS settings for the BODY  - MY HOBBIES                                                   */
 /* ========================================================================================= */
-.myImg-container {
-  position: relative;
-  top: 0;
-  left: 100px;
-
-  width: 500px;
-  height: 300px;
-}
-    
-.body-container myImg_2nd {
-  position: absolute;
-  width: 50%;
-  height: 50%;
-
-}
-
-.myImage3 img {
-  position: absolute;
-  padding-top: 150px;
-
-  width: 30%;
-  height: 30%;
-
-}
-
-.myImage3:hover .myImage5  {
-  animation: TransImg 5s infinite alternate;    /* Transitioning between image1 and image2 happens at 2s */
-}
-
-
-/* ========================================================================================= */
-/* CSS settings for the BODY  - Home, About Me, Hobbie, Contact                              */
-/* ========================================================================================= */
-.body-container {
+.HBY-container {
   display: flex;
   gap: 20px;                /* Space between two elements */
 
   padding-left: 50px;       /* Space from left */
   padding-right: 50px;      /* Space from right */
   padding-bottom: 5px;     /* Space from bottom */
+  padding-top: 150px;
 
   margin-left: 10%;
   margin-right: 10%;
 
   font-family: Papyrus;
   font-size: 20px;
+  /*border: 30px solid #ccc; /* Optional: adds a border to visualize the boxes */
+}
+
+.HBY-TextBox {
+  max-width: 70%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: lch(90.27% 14.76 76.58);
+
+  border-style:outset;
+  border-radius: 5%;
+  border-color:rgb(216, 193, 158);
+  border: 10px;
+}
+
+.HBY-ImgBox {
+  max-width: 30%;
+  font-family:Arial;
+  font-size: 12px;
   /*border: 1px solid #ccc; /* Optional: adds a border to visualize the boxes */
 }
 
-/* myImage - this shows a relatively big picture */
-.myImage img {
-  max-width: 90%;
-  max-height: 90%;
-  padding-top: 150px;
-  object-fit: cover; /* Keeps image from looking stretched */
-}
-
-.myImage2 img {
-  object-fit: cover; /* Keeps image from looking stretched */
-
-  max-width: 60%;
-  max-height: 60%;
-  padding-top: 150px;  
-}
-
-/* Class = box-text */
 /* For displaying text inside a box. This box is side-by-side with an image*/
-.myText {
-  max-width: 85%;
-  padding-top: 150px;
-  text-justify: auto;
+.HBY-text {
+  text-justify:auto;
+  text-align:justify;
+  font-family: arial;
 }
 
-.myText h2 {
-  font-size: 40px;
-  font-family: Brush Script MT;
-  color:darkgreen;
+.HBY-text p {
+  font-size: 18px;
 }
 
-.myText p {
-  font-size: 15px;
-  font-family: Papyrus;
-}
-
-.myText li {
-  font-size: 15px;
+.HBY-text li {
+  font-size: 18px;
   font-family: Monaco;
-  text-justify: auto;
+
 }
 
-.myText2 {
-  max-width: 85%;
-  padding-top: 150px;
+.HBY-Img img {
+  padding-top: 120px;
+
+  max-width: 100%;
+  max-height: 100%;
 }
-
-.myText2 h2 {
-  font-size: 40px;
-  font-family: Brush Script MT;
-  color:darkgreen;
-}
-
-.myText2 p {
-  font-size: 20px;
-  font-family: Papyrus;
-}
-
-
-/* Class = body-container --> then box */
-.footer-container {
-  display: flex;
-  gap: 5px;                /* Space between two elements */
-  padding-left: 50px;       /* Space from left */
-  padding-right: 50px;      /* Space from right */
-  padding-bottom: 5px;     /* Space from bottom */
-
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.myImage p {
-  font-size: 12px;
-  font-family: Monaco;
-}
-
-/* ========================================================================================= */
-/* CSS settings - Javascript                                                                 */
-/* ========================================================================================= */
-#clock {
-    position: relative;
-    padding-left: 20px;
-}
-
 
 #hobbyImage {
   object-fit: cover; /* Keeps image from looking stretched */
   transition: opacity 0.3s ease; /* Adds a slight fade effect */
 }
 
+/* CSS settings for javascript related output    */
 #nextImgButton {
   display: block;
   margin: 20px auto;
@@ -435,5 +363,112 @@ li{
 #nextImgButton:hover  {
   background-color:blanchedalmond;
   color:blue;
+}
+
+/* ========================================================================================= */
+/* CSS settings for the BODY  - MY CONTACT INFO                                              */
+/* ========================================================================================= */
+.CME-container {
+  gap: 20px;                /* Space between two elements */
+
+  padding-left: 50px;       /* Space from left */
+  padding-right: 50px;      /* Space from right */
+  padding-bottom: 5px;     /* Space from bottom */
+  padding-top: 120px;
+
+  margin-left: 10%;
+  margin-right: 10%;
+
+  font-family: Papyrus;
+  font-size: 20px;
+  /*border: 30px solid #ccc; /* Optional: adds a border to visualize the boxes */
+}
+
+.CME-ImgBox {
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  max-width: 30%;
+  /*border: 50px solid #ccc; /* Optional: adds a border to visualize the boxes */
+}
+
+.CME-Img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.CME-TextBox {
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  max-width: 50%; 
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  background-color: lch(90.27% 14.76 76.58);
+
+  border-style:outset;
+  border-radius: 5%;
+  border-color:rgb(216, 193, 158);
+  /*border: 10px; */
+}
+
+
+/* For displaying text inside a box. This box is side-by-side with an image*/
+.CME-text {
+  text-justify:auto;
+  text-align: justify;
+  font-family: arial;
+}
+
+.CME-text p {
+  font-size: 18px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.CME-text h2 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.CME-text li {
+  display: inline-block;
+  gap: 10px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+  font-size: 16px;
+  font-family: Arial;
+
+  background-color:rgb(132, 216, 93);
+  border: 3px solid #cccccc;
+}
+
+.CME-text li:hover {
+  background-color:rgb(24, 164, 207);
+}
+
+/* ========================================================================================= */
+/* CSS settings - FOOTER                                                                     */
+/* ========================================================================================= */
+.footer-container {
+  display: flex;
+  gap: 5px;                /* Space between two elements */
+ 
+  padding-left: 50px;       /* Space from left */
+  padding-right: 50px;      /* Space from right */
+  padding-bottom: 5px;     /* Space from bottom */
+
+  margin-left: 10%;
+  margin-right: 10%;
+  
+  font-family: Papyrus;
+  font-size 20px;
+
 }
 
