@@ -14,6 +14,13 @@ html{
   /*border: 1px solid #ccc; /* Optional: adds a border to visualize the boxes */
 }
 
+/* For displaying text inside a box. This box is side-by-side with an image*/
+.myText {
+  max-width: 85%;
+  padding-top: 150px;
+  text-justify: auto;
+}
+
 h2 {
   font-size: 30px;
   font-family: Papyrus;
@@ -471,4 +478,5 @@ li{
   font-size 20px;
 
 }
+
 
