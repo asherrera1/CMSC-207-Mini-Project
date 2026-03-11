@@ -29,9 +29,8 @@ Project Deliverables
 =====================
 1. Website structure:
 The website is a single-page website that contains the following sections:
-   
-a. Header (Home):
-* Contains Name, Site title, navigation links.
+   a. Header (Home):
+   * Contains Name, Site title, navigation links.
    b. About Me: contains some info about the author, face picture and some fun facts.
 		   - Clicking on the button underneath the photo shows 5 different fun facts.
 		   
