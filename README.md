@@ -53,7 +53,7 @@ The website is a single-page website that contains the following sections:
 
    
 2. Technologies used
-   a. HTML (name: index.html) 
+   a. HTML
       - The coding uses proper semantic tags , such as: <header>, <section>, <footer>.
 	  - All of the basic info, and links to the images, names of javascript files used
 	    are declared in HTML file.
