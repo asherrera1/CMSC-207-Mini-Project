@@ -27,8 +27,7 @@ Project Objectives
 
 Project Deliverables
 =====================
-1. Website structure
-   * The website is a single-page website that contains the following sections:
+1. Website structure - The website is a single-page website that contains the following sections:
  		a. Header (Home)
 		   - contains Name, Site title, navigation links
 		   
