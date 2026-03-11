@@ -290,7 +290,7 @@ li{
   padding-left: 50px;       /* Space from left */
   padding-right: 50px;      /* Space from right */
   padding-bottom: 5px;     /* Space from bottom */
-  padding-top: 20px;
+  padding-top: 150px;
 
   margin-left: 10%;
   margin-right: 10%;
@@ -395,13 +395,15 @@ li{
   margin-left: auto;
   margin-right:auto;
   max-width: 300px;
+
   /*border: 50px solid #ccc; /* Optional: adds a border to visualize the boxes */
 }
 
 .CME-Img img {
   width: 100%;
-  height:auto;
+  height:100%;
 }
+
 
 .CME-TextBox {
   display: block;
@@ -453,10 +455,14 @@ li{
 
   background-color:rgb(132, 216, 93);
   border: 3px solid #cccccc;
+
+  transition: font-size 3s, background-color 2s;
+
 }
 
 .CME-text li:hover {
   background-color:rgb(24, 164, 207);
+  font-size: 30px;
 }
 
 /* ========================================================================================= */
@@ -477,10 +483,3 @@ li{
   font-size 20px;
 
 }
-
-
-
-
-
-
-
