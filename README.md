@@ -74,8 +74,10 @@ a. HTML
 	  - Visually, user can see the font grow when hovered over, and shrinks when cursor is removed from the link.
 	   
 
-3. Features & Enhancements
-   a. Navigation & Menu
+3. Features & Enhancements:
+---------------------------
+
+a. Navigation & Menu
 	  - Anchor links are provided in the header section.
 	  - The header uses "sticky" approach so it descends when the user scrolls down , and
         vice versa.
