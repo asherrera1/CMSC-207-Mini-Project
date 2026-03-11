@@ -14,13 +14,6 @@ html{
   /*border: 1px solid #ccc; /* Optional: adds a border to visualize the boxes */
 }
 
-/* For displaying text inside a box. This box is side-by-side with an image*/
-.myText {
-  max-width: 85%;
-  padding-top: 150px;
-  text-justify: auto;
-}
-
 h2 {
   font-size: 30px;
   font-family: Papyrus;
@@ -320,7 +313,9 @@ li{
 }
 
 .HBY-ImgBox {
+  flex: 1;
   max-width: 30%;
+  width: 300px;
   font-family:Arial;
   font-size: 12px;
   /*border: 1px solid #ccc; /* Optional: adds a border to visualize the boxes */
@@ -346,8 +341,9 @@ li{
 .HBY-Img img {
   padding-top: 120px;
 
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 #hobbyImage {
@@ -377,6 +373,7 @@ li{
 /* ========================================================================================= */
 .CME-container {
   gap: 20px;                /* Space between two elements */
+  align-items: center;
 
   padding-left: 50px;       /* Space from left */
   padding-right: 50px;      /* Space from right */
@@ -392,16 +389,18 @@ li{
 }
 
 .CME-ImgBox {
+  flex: 1;
+
   display: block;
   margin-left: auto;
   margin-right:auto;
-  max-width: 30%;
+  max-width: 300px;
   /*border: 50px solid #ccc; /* Optional: adds a border to visualize the boxes */
 }
 
 .CME-Img img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height:auto;
 }
 
 .CME-TextBox {
@@ -478,5 +477,3 @@ li{
   font-size 20px;
 
 }
-
-
