@@ -456,7 +456,7 @@ li{
   background-color:rgb(132, 216, 93);
   border: 3px solid #cccccc;
 
-  transition: font-size 3s, background-color 2s;
+  transition: font-size 1s, background-color 2s;
 
 }
 
@@ -483,3 +483,4 @@ li{
   font-size 20px;
 
 }
+
