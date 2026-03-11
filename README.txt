@@ -83,7 +83,8 @@ Project Deliverables
    d. Basic CSS animations or transitions
       - In [CONTACT ME] section, when the user hovers over "Email Me", "Linked In", 
 	    "GitHub" links, the font size increases fr 16px to 30px. The transition timing
-		for font resize is 3s, background color by 2s.
+		for font resize is 1s, background color by 2s.
+
 	  - Visually, user can see the font grow when hovered over, and shrinks when cursor
 	    is removed from the link.
 	   
@@ -154,3 +155,4 @@ TOOLS USED:
    - For references on specific commands, or how to achieve certain effects.
    - Google Gemini for creating the pictures of the beagle.
    
+
