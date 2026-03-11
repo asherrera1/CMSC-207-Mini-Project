@@ -15,7 +15,7 @@ JavaScript interactivity while keeping the scope manageable for mid-semester
 progress.
 
 
-=====================
+
 Project Objectives
 =====================
 ✅ Develop a structured and semantic HTML page.
@@ -25,7 +25,6 @@ Project Objectives
 ✅ Get comfortable with debugging and refining their web pages.
 
 
-=====================
 Project Deliverables
 =====================
 1. Website structure
@@ -108,8 +107,7 @@ Project Deliverables
 	  - The web page has been tested over Chrome and Firefox browsers, and Chrome Mobile version
 	    extension to test if the layout is friendly on mobile devices.
 
-
-====================		
+	
 STUDENT REFLECTIONS:
 ====================		
 1. Challenges Encountered
@@ -137,8 +135,7 @@ STUDENT REFLECTIONS:
       * However, real errors can only be discovered at run-time when certain effects are not 
 	    met, or javascript does not work.
    
-		
-====================		
+				
 TOOLS USED:
 ====================			
 1. Notepad ++ 
