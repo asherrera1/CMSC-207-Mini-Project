@@ -32,14 +32,15 @@ The website is a single-page website that contains the following sections:
 
    a. Header (Home):
    * Contains Name, Site title, navigation links.
-   b. About Me: contains some info about the author, face picture and some fun facts.
-		   - Clicking on the button underneath the photo shows 5 different fun facts.
-		   
-		c. Other Info
-		   - This is an additional section showing my educational background,
-		     work experiences, technical skills and other skills.
-			 
-		d. My Hobbies
+   
+   b. About Me:
+   * Contains some info about the author, face picture and some fun facts.
+   * Clicking on the button underneath the photo shows 5 different fun facts.
+
+   c. Other Info
+   * This is an additional section showing my educational background, work experiences, technical skills and other skills.
+   
+   d. My Hobbies
 		   - Named as "My Little Hobbies, My Little Hobbies".
 		   - Was thinking of "My Little Ponies, My Little Ponies" while creating 
 		     this section.
