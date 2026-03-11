@@ -64,9 +64,9 @@ a. HTML
 		section. Though, please note there are still some commands shared in some sections.
 		
    c. JavaScript
-	  - Though the GitHub folder does contain three Javascript files, only two are actively used in the web page, namely
-		i.  FSW_GetFunFact.js - Allows to display 5 different fun facts about author.
-		ii. FSW_GetPhoto.js.  - Allows to display 5 different photos.
+	  - Though the GitHub folder does contain three Javascript files, only two are actively used in the web page, namely:
+	  i.  FSW_GetFunFact.js - Allows to display 5 different fun facts about author.
+	  ii. FSW_GetPhoto.js.  - Allows to display 5 different photos.
 	  - The Javascript is executed when the user clicks on specific buttons.
 	  
    d. Basic CSS animations or transitions
