@@ -18,11 +18,11 @@ progress.
 
 Project Objectives
 =====================
-✅ Develop a structured and semantic HTML page.
-✅ Apply CSS to enhance layout, colors, and typography.
-✅ Use JavaScript for simple interactivity.
-✅ Implement responsive design for mobile and desktop views.
-✅ Get comfortable with debugging and refining their web pages.
+1. Develop a structured and semantic HTML page.
+2. Apply CSS to enhance layout, colors, and typography.
+3. Use JavaScript for simple interactivity.
+4. Implement responsive design for mobile and desktop views.
+5. Get comfortable with debugging and refining their web pages.
 
 
 Project Deliverables
