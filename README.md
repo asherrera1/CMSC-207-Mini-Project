@@ -54,7 +54,7 @@ The website is a single-page website that contains the following sections:
    
 ---------------------------
 2. Technologies used:
-a. HTML
+   a. HTML
       - The coding uses proper semantic tags , such as: header, section, footer.
 	  - All of the basic info, and links to the images, names of javascript files used are declared in HTML file.
       - Initially named as "CMSC 207 Mini Project - Ariel Herrera.html" during testing in local drive. Later changed to "index.html" for usability in GitHub.
