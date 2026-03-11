@@ -41,17 +41,15 @@ The website is a single-page website that contains the following sections:
    * This is an additional section showing my educational background, work experiences, technical skills and other skills.
    
    d. My Hobbies
-		   - Named as "My Little Hobbies, My Little Hobbies".
-		   - Was thinking of "My Little Ponies, My Little Ponies" while creating 
-		     this section.
-		   - To the left is a photo, and a button. The button shows 5 different photos
-		     when clicked.
-			 
-		e. Contact Me
-		   - Shows links to my email address, LinkedIn and GitHub.
-		   
-		f. Footer
-		   - Shows the name of the website, the author, date created and FIC.
+   * Named as "My Little Hobbies, My Little Hobbies".
+   * Was thinking of "My Little Ponies, My Little Ponies" while creating this section.
+   * To the left is a photo, and a button. The button shows 5 different photos when clicked.
+   
+   e. Contact Me
+   * Shows links to my email address, LinkedIn and GitHub.
+   
+   f. Footer
+   * Shows the name of the website, the author, date created and FIC.
 		
 		
 3. Technologies used
