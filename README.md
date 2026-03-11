@@ -79,29 +79,24 @@ The website is a single-page website that contains the following sections:
 ---------------------------
 3. Features & Enhancements:
 
-a. Navigation & Menu
+   a. Navigation & Menu
 	  - Anchor links are provided in the header section.
-	  - The header uses "sticky" approach so it descends when the user scrolls down , and
-        vice versa.
+	  - The header uses "sticky" approach so it descends when the user scrolls down , and vice versa.
 		
    b. Hover effects
-	  - Header navigation links - the color changes to green, and an underline is shown
-	    whenever the user hovers on a link.
-	  - Next Fun Fact button - button color and font color changes when the user hovers 
-	    over the button.
-	  - Check Photos - button color and font color changes when the user hovers 
-	    over the button.
-	  - My contact info links - background color changes to blue when the user hovers 
-	    over a link.
+	  - Header navigation links - the color changes to green, and an underline is shown whenever the user hovers on a link.
+	  - Next Fun Fact button - button color and font color changes when the user hovers over the button.
+	  - Check Photos - button color and font color changes when the user hovers over the button.
+	  - My contact info links - background color changes to blue when the user hovers over a link.
 	  
 	c. Javascript interaction
 	  - When the user clicks on "Next Fun Fact" or "Check Photos", the relative content changes.
 	  
 	d. Mobile-Friendly layout.
-	  - The web page has been tested over Chrome and Firefox browsers, and Chrome Mobile version
-	    extension to test if the layout is friendly on mobile devices.
+	  - The web page has been tested over Chrome and Firefox browsers, and Chrome Mobile version extension to test if the layout is friendly on mobile devices.
 
 	
+---------------------------
 STUDENT REFLECTIONS:
 ====================		
 1. Challenges Encountered
