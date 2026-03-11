@@ -50,9 +50,9 @@ The website is a single-page website that contains the following sections:
    
    f. Footer
    * Shows the name of the website, the author, date created and FIC.
-		
-		
-3. Technologies used
+
+   
+2. Technologies used
    a. HTML (name: index.html) 
       - The coding uses proper semantic tags , such as: <header>, <section>, <footer>.
 	  - All of the basic info, and links to the images, names of javascript files used
