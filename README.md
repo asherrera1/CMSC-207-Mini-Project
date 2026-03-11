@@ -10,9 +10,7 @@ CMSC 207 Mini-Project: Build a Personal Web Profile
 /* Website Name: https://asherrera1.github.io/CMSC-207-Mini-Project/    */
 /************************************************************************/
 
-=====================
-Project Overview
-=====================
+===Project Overview===
 This mini-project is a stepping stone towards the final project and focuses on 
 applying foundational web development concepts. Students will create a basic 
 personal web profile, following the principles taught in Clyde Hatter’s book. 
