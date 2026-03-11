@@ -1,9 +1,9 @@
 
-AUTHOR      : HERRERA ARIEL                                          
-DATE CREATED: 12-MARCH-2026                                          
-FILE NAME   : README.MD
-FOR PROJECT : CMSC 207 Mini-Project: Build a Personal Web Profile                                           
-Website Name: https://asherrera1.github.io/CMSC-207-Mini-Project/
+Author       : HERRERA ARIEL                                          
+Date Created : 12-MARCH-2026                                          
+FILE NAME    : README.MD
+FOR PROJECT  : CMSC 207 Mini-Project: Build a Personal Web Profile                                           
+Website Name : https://asherrera1.github.io/CMSC-207-Mini-Project/
 
 Project Overview
 ================
