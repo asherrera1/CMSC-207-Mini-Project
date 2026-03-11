@@ -52,34 +52,26 @@ The website is a single-page website that contains the following sections:
    * Shows the name of the website, the author, date created and FIC.
 
    
-2. Technologies used
-   a. HTML
-      - The coding uses proper semantic tags , such as: <header>, <section>, <footer>.
-	  - All of the basic info, and links to the images, names of javascript files used
-	    are declared in HTML file.
-      - Initially named as "CMSC 207 Mini Project - Ariel Herrera.html" during testing
-	    in local drive. Later changed to "index.html" for usability in GitHub.
+2. Technologies used:
+a. HTML
+      - The coding uses proper semantic tags , such as: header, section, footer.
+	  - All of the basic info, and links to the images, names of javascript files used are declared in HTML file.
+      - Initially named as "CMSC 207 Mini Project - Ariel Herrera.html" during testing in local drive. Later changed to "index.html" for usability in GitHub.
 		
    b. CSS
 	  - For modifying how the HTML gets displayed in a web browser.
-	  - Each section has its own, separate CSS commands for readability. It's also 
-	    easier for me to know which part in the CSS I need to change for a specific 
-		section. Though, please note there are still some commands shared in some
-		sections.
+	  - Each section has its own, separate CSS commands for readability. It's also easier for me to know which part in the CSS I need to change for a specific 
+		section. Though, please note there are still some commands shared in some sections.
 		
    c. JavaScript
-	  - Though the GitHub folder does contain three Javascript files, only two are 
-	    actively used in the web page, namely
+	  - Though the GitHub folder does contain three Javascript files, only two are actively used in the web page, namely
 		i.  FSW_GetFunFact.js - Allows to display 5 different fun facts about author.
 		ii. FSW_GetPhoto.js.  - Allows to display 5 different photos.
 	  - The Javascript is executed when the user clicks on specific buttons.
 	  
    d. Basic CSS animations or transitions
-      - In [CONTACT ME] section, when the user hovers over "Email Me", "Linked In", 
-	    "GitHub" links, the font size increases fr 16px to 30px. The transition timing
-		for font resize is 3s, background color by 2s.
-	  - Visually, user can see the font grow when hovered over, and shrinks when cursor
-	    is removed from the link.
+      - In [CONTACT ME] section, when the user hovers over "Email Me", "Linked In", "GitHub" links, the font size increases fr 16px to 30px. The transition timing for font resize is 3s, background color by 2s.
+	  - Visually, user can see the font grow when hovered over, and shrinks when cursor is removed from the link.
 	   
 
 3. Features & Enhancements
