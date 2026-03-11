@@ -117,10 +117,15 @@ STUDENT REFLECTIONS:
 2. What did I learn from this Mini-project ?
 
    a. It's not easy to come up with a layout, a name or a design for a web page especially when creativity is a challenge.
+
    b. What works in one platform, may not visually be correct in another platform.
+
    c. CSS and HTML are super case-sensitive. I discovered this the hard way.
+
    d. When using a javascript.js in a web page, the variables or constants used must be different. Else, the javascript won't work.
+
    e. Without CSS, the web page is just plain text: dull and boring. That said, CSS brings life to a web page.
+
    f. Using Visual Studio Code Editor helps to visually show any potential errors in HTML or CSS.
       * However, real errors can only be discovered at run-time when certain effects are not met, or javascript does not work.
    
