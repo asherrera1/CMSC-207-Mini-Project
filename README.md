@@ -100,31 +100,32 @@ The website is a single-page website that contains the following sections:
 STUDENT REFLECTIONS:
 ====================		
 1. Challenges Encountered
+
    a. Coming up with a name for the web page, the layout, the colors.
+
    b. The different How to questions, like:
       * How to make the layout ?
 	  * How to make the image next to the text box ?
 	  * How to do the Hover effect ?
 	  * How to do this and that effect ?
-   c. Testing across different platforms: local PC, mobile phone and 
-      live on GitHub.
+
+   c. Testing across different platforms: local PC, mobile phone and live on GitHub.
+
    d. Navigating GitHub and checking how to make the site viewable when using a repository link.
 
 
 2. What did I learn from this Mini-project ?
-   a. It's not easy to come up with a layout, a name or a design for a web page especially when
-      creativity is a challenge.
+
+   a. It's not easy to come up with a layout, a name or a design for a web page especially when creativity is a challenge.
    b. What works in one platform, may not visually be correct in another platform.
    c. CSS and HTML are super case-sensitive. I discovered this the hard way.
-   d. When using a javascript.js in a web page, the variables or constants used must be 
-      different. Else, the javascript won't work.
-   e. Without CSS, the web page is just plain text: dull and boring.
-      That said, CSS brings life to a web page.
+   d. When using a javascript.js in a web page, the variables or constants used must be different. Else, the javascript won't work.
+   e. Without CSS, the web page is just plain text: dull and boring. That said, CSS brings life to a web page.
    f. Using Visual Studio Code Editor helps to visually show any potential errors in HTML or CSS.
-      * However, real errors can only be discovered at run-time when certain effects are not 
-	    met, or javascript does not work.
+      * However, real errors can only be discovered at run-time when certain effects are not met, or javascript does not work.
    
 				
+---------------------------
 TOOLS USED:
 ====================			
 1. Notepad ++ 
