@@ -129,6 +129,7 @@ STUDENT REFLECTIONS:
    f. Using Visual Studio Code Editor helps to visually show any potential errors in HTML or CSS.
       * However, real errors can only be discovered at run-time when certain effects are not met, or javascript does not work.
    
+   g. In GitHub, it takes a while for the effects to "take-effect". 
 				
 ---------------------------
 TOOLS USED:
