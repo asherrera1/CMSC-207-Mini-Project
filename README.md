@@ -52,6 +52,7 @@ The website is a single-page website that contains the following sections:
    * Shows the name of the website, the author, date created and FIC.
 
    
+---------------------------
 2. Technologies used:
 a. HTML
       - The coding uses proper semantic tags , such as: header, section, footer.
@@ -74,8 +75,8 @@ a. HTML
 	  - Visually, user can see the font grow when hovered over, and shrinks when cursor is removed from the link.
 	   
 
-3. Features & Enhancements:
 ---------------------------
+3. Features & Enhancements:
 
 a. Navigation & Menu
 	  - Anchor links are provided in the header section.
